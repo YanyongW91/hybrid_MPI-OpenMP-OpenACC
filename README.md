@@ -1,1 +1,2 @@
 # hybrid_MPI-OpenMP-OpenACC
+This aims to evaluate the performance of a hybrid programming model that integrates MPI, OpenMP, and OpenACC to maximize the utilization of computational resources on high-performance computing (HPC) platforms.
