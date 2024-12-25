@@ -1,0 +1,8 @@
+set(CMAKE_Fortran_COMPILER "ftn" CACHE STRING "" FORCE)
+set(CMAKE_Fortran_FLAGS "-O3 -ip -fp-model precise" CACHE STRING "" FORCE)
+set(Fortran_MIN_FLAGS "-O0 -fp-model precise" CACHE STRING "" FORCE)
+set(LIB_PATHS "/opt/intel/mkl/lib/intel64" CACHE STRING "" FORCE)
+set(LIBS "mkl_intel_lp64 mkl_sequential mkl_core mkl_blacs_intelmpi_lp64 mkl_scalapack_lp64" CACHE STRING "" FORCE)
+set(USE_MPI ON CACHE BOOL "" FORCE)
+set(USE_SCALAPACK ON CACHE BOOL "" FORCE)
+set(USE_HDF5 OFF CACHE BOOL "" FORCE)
